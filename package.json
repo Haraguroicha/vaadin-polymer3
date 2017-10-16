@@ -1,6 +1,6 @@
 {
   "name": "vaadin-polymer3",
-  "version": "1.0.0-2",
+  "version": "1.0.0-3",
   "description": "A ugly workaround for Vaadin elements in polymer3 support",
   "main": "dist/vaadin.js",
   "files": [

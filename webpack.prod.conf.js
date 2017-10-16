@@ -62,7 +62,7 @@ module.exports = {
       }
     ]
   },
-  externals: Object.keys(pkg.devDependencies),
+  externals: Object.keys(pkg.devDependencies).concat([/@polymer|@webcomponents/]),
   resolve: {
     extensions: ['.ts', '.js']
   },
