@@ -4,19 +4,27 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const pkg = require('./package.json');
 
 const extractSass = new ExtractTextPlugin({
-  filename: "dist/vaadin.css"
+  filename: "vaadin.css",
+  publicPath: path.resolve(__dirname, 'dist')
 });
 
 const sassOptions = {
   sourceMap: true,
-  includePaths: [ path.resolve(__dirname, '..', '_sass') ]
+  includePaths: [ path.resolve(__dirname, '_sass') ]
 };
 
 module.exports = {
   entry: {
     app: './src/index'
+  },
+  output: {
+    filename: "vaadin.js",
+    library: "vaadin-polymer3",
+    libraryTarget: "commonjs2",
+    path: path.resolve(__dirname, 'dist')
   },
   module: {
     rules: [
@@ -54,11 +62,12 @@ module.exports = {
       }
     ]
   },
+  externals: Object.keys(pkg.devDependencies),
   resolve: {
     extensions: ['.ts', '.js']
   },
   plugins: [
-    new CleanWebpackPlugin(['dist'], { root: path.resolve(__dirname, '..') }),
+    new CleanWebpackPlugin(['dist'], { root: path.resolve(__dirname) }),
     extractSass,
     // copy custom static assets
     new CopyWebpackPlugin([]),

@@ -1,6 +1,6 @@
 {
   "name": "vaadin-polymer3",
-  "version": "1.0.0",
+  "version": "1.0.0-2",
   "description": "A ugly workaround for Vaadin elements in polymer3 support",
   "main": "dist/vaadin.js",
   "files": [
@@ -17,23 +17,16 @@
   "license": "Apache-2.0",
   "flat": true,
   "scripts": {
-    "build": "webpack --config webpack.prod.conf.js --output-filename dist/vaadin.js"
+    "build": "webpack --config webpack.prod.conf.js"
   },
   "dependencies": {
-    "@polymer/iron-a11y-announcer": "^3.0.0-pre.1",
-    "@polymer/iron-iconset-svg": "^3.0.0-pre.1",
-    "@polymer/iron-list": "^3.0.0-pre.1",
-    "@polymer/iron-media-query": "^3.0.0-pre.1",
-    "@polymer/iron-resizable-behavior": "^3.0.0-pre.1",
-    "@polymer/polymer": "^3.0.0-pre.1",
-    "cheerio": "^1.0.0-rc.2",
     "vaadin-button": "^1.0.2",
     "vaadin-checkbox": "^1.0.0-alpha5",
-    "vaadin-combo-box": "vaadin/vaadin-combo-box#master",
-    "vaadin-context-menu": "vaadin/vaadin-context-menu#master",
+    "vaadin-combo-box": "vaadin/vaadin-combo-box#669ee3a",
+    "vaadin-context-menu": "vaadin/vaadin-context-menu#46eee92",
     "vaadin-control-state-mixin": "^1.1.4",
     "vaadin-date-picker": "^2.0.4",
-    "vaadin-dialog": "vaadin/vaadin-dialog#master",
+    "vaadin-dialog": "vaadin/vaadin-dialog#7cce0b1",
     "vaadin-form-layout": "^1.0.2",
     "vaadin-grid": "^3.0.0",
     "vaadin-icons": "^4.1.1",
@@ -41,12 +34,19 @@
     "vaadin-progress-bar": "^1.0.0-alpha2",
     "vaadin-radio-button": "^1.0.0-alpha2",
     "vaadin-split-layout": "^3.0.0-alpha2",
-    "vaadin-text-field": "vaadin/vaadin-text-field#master",
+    "vaadin-text-field": "vaadin/vaadin-text-field#70b1a28",
     "vaadin-themable-mixin": "^1.2.0",
     "vaadin-upload": "^2.1.1",
-    "vaadin-valo-theme": "vaadin/vaadin-valo-theme"
+    "vaadin-valo-theme": "vaadin/vaadin-valo-theme#5a76031"
   },
   "devDependencies": {
+    "@polymer/iron-a11y-announcer": "^3.0.0-pre.1",
+    "@polymer/iron-iconset-svg": "^3.0.0-pre.1",
+    "@polymer/iron-list": "^3.0.0-pre.1",
+    "@polymer/iron-media-query": "^3.0.0-pre.1",
+    "@polymer/iron-resizable-behavior": "^3.0.0-pre.1",
+    "@polymer/polymer": "^3.0.0-pre.1",
+    "cheerio": "^1.0.0-rc.2",
     "clean-webpack-plugin": "^0.1.17",
     "copy-webpack-plugin": "^4.1.1",
     "css-loader": "^0.28.7",

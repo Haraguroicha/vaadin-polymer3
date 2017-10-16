@@ -3063,11 +3063,11 @@ vaadin-checkbox@^1.0.0-alpha5:
   version "1.0.0-alpha5"
   resolved "https://registry.yarnpkg.com/vaadin-checkbox/-/vaadin-checkbox-1.0.0-alpha5.tgz#58ef8f47a7084a48203009e53302f6461788a30e"
 
-vaadin-combo-box@vaadin/vaadin-combo-box#master:
+vaadin-combo-box@vaadin/vaadin-combo-box#669ee3a:
   version "3.0.0"
   resolved "https://codeload.github.com/vaadin/vaadin-combo-box/tar.gz/669ee3a419b8d1a5c6f251c61bbc6387c6e091b9"
 
-vaadin-context-menu@vaadin/vaadin-context-menu#master:
+vaadin-context-menu@vaadin/vaadin-context-menu#46eee92:
   version "3.0.0-alpha6"
   resolved "https://codeload.github.com/vaadin/vaadin-context-menu/tar.gz/46eee92e4d271e95472cd9d4a31869586589fa36"
 
@@ -3079,7 +3079,7 @@ vaadin-date-picker@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/vaadin-date-picker/-/vaadin-date-picker-2.0.4.tgz#57d2ee994d0579dd7acbb045924943b13f444687"
 
-vaadin-dialog@vaadin/vaadin-dialog#master:
+vaadin-dialog@vaadin/vaadin-dialog#7cce0b1:
   version "1.0.0"
   resolved "https://codeload.github.com/vaadin/vaadin-dialog/tar.gz/7cce0b131838bb6e951351e62ecd14422d88d068"
 
@@ -3111,7 +3111,7 @@ vaadin-split-layout@^3.0.0-alpha2:
   version "3.0.0-alpha2"
   resolved "https://registry.yarnpkg.com/vaadin-split-layout/-/vaadin-split-layout-3.0.0-alpha2.tgz#2ca818e6e5c01fd699b89fbd26bcf79d6f3fbe0f"
 
-vaadin-text-field@vaadin/vaadin-text-field#master:
+vaadin-text-field@vaadin/vaadin-text-field#70b1a28:
   version "1.1.0"
   resolved "https://codeload.github.com/vaadin/vaadin-text-field/tar.gz/70b1a28e48b05ee75c21dfff7da3ab26f1a27f2e"
 
@@ -3123,7 +3123,7 @@ vaadin-upload@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/vaadin-upload/-/vaadin-upload-2.1.1.tgz#e123dd6322750afab61fc7dc6a4b87db0166e16d"
 
-vaadin-valo-theme@vaadin/vaadin-valo-theme:
+vaadin-valo-theme@vaadin/vaadin-valo-theme#5a76031:
   version "2.0.0-alpha3"
   resolved "https://codeload.github.com/vaadin/vaadin-valo-theme/tar.gz/5a76031ab11ff4a30289a599e8f71db721ee2b5c"
 
